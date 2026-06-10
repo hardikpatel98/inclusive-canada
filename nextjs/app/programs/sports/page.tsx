@@ -48,7 +48,7 @@ const leagues = [
     description:
       'The University League brings together students from campuses across BC to compete in fast-paced 8-a-side LMS cricket. It\'s a platform for university students to stay active, build inter-campus friendships, and represent their institution on a global stage through LMS world rankings.',
     highlights: [
-      '8-a-side format — fast and accessible',
+      '8-a-side format, fast and accessible',
       'Cross-campus competition',
       'LMS global rankings participation',
       'Social and networking opportunities',
@@ -143,7 +143,7 @@ export default function SportsPage() {
                 Our Sports portfolio champions inclusive, accessible sporting opportunities that welcome people of all backgrounds, abilities, and life experiences. Through strategic partnerships and community-centred programs, we help reduce barriers and create spaces where everyone can play, connect, and thrive.
               </p>
               <p className="text-[#6B7280] leading-relaxed">
-                We run programs across cricket formats designed for newcomers, juniors, university students, and corporate teams — all connected through our partnership with Last Man Stands, one of the world's largest amateur cricket networks.
+                We run programs across cricket formats designed for newcomers, juniors, university students, and corporate teams, all connected through our partnership with Last Man Stands, one of the world's largest amateur cricket networks.
               </p>
             </div>
 
@@ -152,23 +152,31 @@ export default function SportsPage() {
               <SectionLabel color="#128341" className="mb-3 block">Our Key Partner</SectionLabel>
               <h3 className="font-display font-bold text-2xl text-[#111827] mb-4">Last Man Stands</h3>
               <p className="text-[#6B7280] text-sm leading-relaxed mb-5">
-                Last Man Stands (LMS) is one of the world's largest and most innovative amateur cricket formats, designed to make cricket fun, fast-paced, and accessible for everyone. Played as 8-a-side, two-hour matches, LMS removes traditional barriers to participation and brings the joy of cricket to communities globally.
+                <a
+                  href="https://lastmanstandsdei.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#128341] font-semibold hover:underline"
+                >
+                  Last Man Stands (LMS)
+                </a>
+                {' '}is one of the world's largest and most innovative amateur cricket formats, designed to make cricket fun, fast-paced, and accessible for everyone. Played as 8-a-side, two-hour matches, LMS removes traditional barriers to participation and brings the joy of cricket to communities globally.
               </p>
               <p className="text-[#6B7280] text-sm leading-relaxed mb-6">
                 In Canada, LMS has become a cornerstone of inclusive sport, welcoming players from diverse cultures, ages, and skill levels to take part in organised cricket, build new friendships, and strengthen local communities through sport.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row gap-6">
                 <a
-                  href="https://lastmanstandsdei.com"
+                  href="https://www.lastmanstands.com/recent-lms-results/canada"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-body font-semibold text-[#128341] hover:underline focus-visible:outline-none"
                 >
                   <ExternalLink className="w-4 h-4" />
-                  2022 BC Blasters Championship results
+                  Fixtures and results
                 </a>
                 <a
-                  href="https://lastmanstands.com/leagues/canada"
+                  href="https://www.lastmanstands.com/lms-cricket-rankings/canada"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-body font-semibold text-[#128341] hover:underline focus-visible:outline-none"
