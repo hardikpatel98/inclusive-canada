@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Brand */
+  --color-red:        #E30613;
+  --color-green:      #128341;
+  --color-teal:       #0097A7;
+  --color-orange:     #FF8C00;
+
+  /* Neutrals */
+  --color-gray:       #6B7280;
+  --color-gray-light: #F3F4F6;
+  --color-white:      #FFFFFF;
+  --color-dark:       #111827;
+
+  /* Pillar Map */
+  --pillar-sports:    var(--color-green);
+  --pillar-education: var(--color-red);
+  --pillar-health:    var(--color-teal);
+  --pillar-culture:   var(--color-orange);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-[#6B7280] bg-white font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-[#111827];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

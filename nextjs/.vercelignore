@@ -1,0 +1,7 @@
+# No extra files to ignore inside nextjs/ —
+# Vercel only sees this subdirectory when Root Directory is set to nextjs/
+# node_modules and .next are rebuilt by Vercel automatically
+node_modules/
+.next/
+*.tsbuildinfo
+.env.local

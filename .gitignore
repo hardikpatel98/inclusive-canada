@@ -1,0 +1,24 @@
+# Working files — not for version control
+temporary screenshots/
+reference-screenshots/
+archive-old-sites.mjs
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.claude/settings.local.json
+
+# Next.js
+nextjs/.next/
+nextjs/out/
+nextjs/node_modules/
+nextjs/.env*.local
+nextjs/npm-debug.log*
+nextjs/yarn-debug.log*
+nextjs/yarn-error.log*
+nextjs/.pnpm-debug.log*
+
+# Build artifacts at root
+.next/
