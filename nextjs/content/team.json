@@ -1,0 +1,26 @@
+[
+  {
+    "id": "emrul-hasan",
+    "name": "M. Emrul Hasan",
+    "role": "Director",
+    "bio": "M. Emrul Hasan leads Inclusive Canada Foundation with a focus on building equitable opportunities for newcomers and marginalized communities. His leadership drives the organization's four-pillar model across Sports, Education, Health, and Culture. He is a Lecturer at the Vancouver School of Economics at the University of British Columbia. Before joining UBC, he taught economics and finance courses at Simon Fraser University (SFU), the British Columbia Institute of Technology (BCIT), and Douglas College. He completed his PhD in Finance at the Beedie School of Business at SFU, and holds an MA in Economics from SFU and an MA in Financial Economics from York University. He is also a CFA (Chartered Financial Analyst) charterholder and a certified FRM (Financial Risk Manager).",
+    "photo": "/images/team/emrul-hasan.jpg",
+    "linkedin": "https://www.linkedin.com/in/emrulhasan/"
+  },
+  {
+    "id": "jesse-wang",
+    "name": "Jesse Wang",
+    "role": "Program Coordinator",
+    "bio": "Jesse Wang coordinates ICF's community programs, ensuring that every initiative reaches the people who need it most. He works closely with partner organizations and government funders to expand program reach across the Lower Mainland.",
+    "photo": "/images/team/jesse-wang.jpg",
+    "linkedin": "https://linkedin.com/in/jesse-wang"
+  },
+  {
+    "id": "lena-peters",
+    "name": "Lena Peters",
+    "role": "Research Analyst",
+    "bio": "Lena Peters leads ICF's research and impact measurement efforts. She develops evidence-based frameworks that demonstrate program outcomes for funders and helps the organization continuously improve its community engagement strategies.",
+    "photo": "/images/team/lena-peters.jpg",
+    "linkedin": "https://linkedin.com/in/lena-peters"
+  }
+]
